@@ -682,6 +682,10 @@ table tbody tr:hover {
   background-color: rgba(255,173,51,0.5);
 }
 
+button {
+  cursor: pointer;
+}
+
 .order-list thead {
   text-align: left;
 }
@@ -1064,9 +1068,11 @@ table tr {
 }
 
 .user-form form,
+.add-user-form form,
 .order-form form {
   width: 30%;
 }
+
 
 .from {
   padding-bottom: 5px;
